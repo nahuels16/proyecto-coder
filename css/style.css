@@ -185,7 +185,23 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    background: linear-gradient(-45deg, #333333, #dd1818);
+    background-size: 400% 400%;        animation: gradient 15s ease infinite;
+    height: 15vh;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
 
 .nav-footer{
     width: 30%;
