@@ -1,5 +1,5 @@
 <h1 align="center">Hola, Soy Nahuel Sosa</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate frontend developer from Argentina</h3>
 
 - 🌱 I’m currently learning **HTML / CSS**
 
