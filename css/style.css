@@ -5,64 +5,46 @@
     font-family: 'Spartan', sans-serif;
 }
 
-body{
-    background-color: #6b0606;
+body {
+	background: linear-gradient(-45deg, #00f00c, #e7e7e7, #ff0202);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
-/* HEADER */
-
-.header-container{
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url("../assets/fondo-nav.jpg");    
-}
-
-a{
-    text-decoration: none;
-    color: #181818;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.nav-item{
-    margin: 0;
-    margin-bottom: 1px;
-    padding: 20px;
-}
-
-.nav-item:hover{
-    background: linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
-    border-radius: 5px;
-}
-
-.nav{ 
-    width: 100%;
-}
-
-.menu{
-    color: #f7f3ef;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* SECTIONS */
 
 h1{
-    border: solid #050a04 2px;
-    color: #797979d2;
-    font-size: 80px;
+
     font-style: italic;
+    color: #ffffff;
+    font-size: 100px;
     text-align: center;
-    background-image: url("../assets/flag-of-italy.jpg");
+    background-color: #000000;
     display: flex;
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    color: #050a04;
+}
+
 .info-index{
     margin: 20px;
-    color: #f7f3ef;
+    color: #030200;
     border-bottom-left-radius: 2px;
     font-size: 25px;
     text-align: center;
@@ -75,8 +57,8 @@ h3{
 }
 
 .demostration-1{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 10%;
 }
 
@@ -117,8 +99,8 @@ h3{
     padding: 20px;
     display: inline-block;
     text-align: center;
-    width:  20em;
-    height: 20em;
+    width:  25em;
+    height: 25em;
     background-image: linear-gradient(180deg, #ffffff 0, #ffffff 16.67%, #f9ffff 33.33%, #eaedee 50%, #d8c9c3 66.67%, #c5ab9c 83.33%, #b2927a 100%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -129,8 +111,8 @@ h3{
     padding: 20px;
     display: inline-block;
     text-align: center;
-    width:  20em;
-    height: 20em;
+    width:  25em;
+    height: 25em;
     background-image: linear-gradient(180deg, #ffffff 0, #ffffff 16.67%, #f9ffff 33.33%, #eaedee 50%, #d8c9c3 66.67%, #c5ab9c 83.33%, #b2927a 100%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -142,7 +124,7 @@ h3{
 
 h2{
     margin: 20px;
-    color: #f7f3ef;
+    color: #BE1B1B;
     border-bottom-left-radius: 2px;
     font-size: 30px;
     text-align: center;
@@ -231,7 +213,14 @@ h2{
 
     h1{
         font-size: 40px;
+        color: #000000;
         background-image: linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+    }
+
+    .demostration-1{
+        width: 120px;
+        height: 120px;
+        border-radius: 10%;
     }
 
     h2{
@@ -266,6 +255,7 @@ h2{
     }
 
     h1{
+        color: #000000;
         font-size: 45px;
         background-image: linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
     }
