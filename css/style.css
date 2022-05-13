@@ -5,12 +5,11 @@
   font-family: "Spartan", sans-serif;
 }
 
-
 body {
   background: linear-gradient(-45deg, #606160, #e7e7e7, #161616);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  height: 100vh; 
+  height: 100vh;
 }
 
 @keyframes gradient {
@@ -186,10 +185,6 @@ h3 {
 /* @MEDIA QUERIES */
 /* Mobile */
 @media only screen and (max-width: 450px) {
-  a {
-    font-size: 5px;
-  }
-
   h1 {
     font-size: 40px;
     color: #000000;
@@ -224,13 +219,13 @@ h3 {
   .medium {
     flex-wrap: wrap;
   }
+
+  .demo-logo {
+    width: 20px;
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 451px) and (max-width: 960px) {
-  a {
-    font-size: 8px;
-  }
-
   h1 {
     color: #000000;
     font-size: 45px;
@@ -258,6 +253,10 @@ h3 {
 
   .medium {
     flex-wrap: wrap;
+  }
+
+  .demo-logo {
+    width: 20px;
   }
 }
 

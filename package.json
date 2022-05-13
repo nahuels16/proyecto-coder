@@ -4,7 +4,7 @@
   "description": "<h1 align=\"center\">Hola, Soy Nahuel Sosa</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",

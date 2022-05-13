@@ -160,9 +160,6 @@ h3{
 /* Mobile */
 
 @media only screen and (max-width:450px){
-    a{
-        font-size: 5px;
-    }
 
     h1{
         font-size: 40px;
@@ -198,14 +195,15 @@ h3{
     .medium{
         flex-wrap: wrap;
     }
+
+    .demo-logo{
+        width: 20px;
+    }
 }
 
 /* Tablet */
 
 @media only screen and (min-width:451px) and (max-width:960px){
-    a{
-        font-size: 8px;
-    }
 
     h1{
         color: #000000;
@@ -234,6 +232,10 @@ h3{
 
     .medium{
         flex-wrap: wrap;
+    }
+
+    .demo-logo{
+        width: 20px;
     }
 
 }
