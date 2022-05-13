@@ -1,0 +1,38 @@
+/* FOOTER */
+
+.footer-container{
+    color: #050a04;
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(-45deg, #080808, #444444);
+    background-size: 400% 400%;        animation: gradient 15s ease infinite;
+    height: 15vh;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+.logo{
+    padding-left: 20px;
+}
+
+
+.nav-footer{
+width: 30%;
+}
+
+.social-media{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
