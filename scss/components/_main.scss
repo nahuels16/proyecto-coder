@@ -1,0 +1,84 @@
+h2{
+    margin: 20px;
+    color: #BE1B1B;
+    border-bottom-left-radius: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    color: #BE1B1B;
+    font-size: 30px;
+    text-align: center;
+}
+
+.info-index{
+    margin: 20px;
+    color: #030200;
+    border-bottom-left-radius: 2px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.medium{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.sub-medium{
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    width:  25em;
+    height: 25em;
+    background-image: linear-gradient(180deg, #ffffff 0, #ffffff 16.67%, #f9ffff 33.33%, #eaedee 50%, #d8c9c3 66.67%, #c5ab9c 83.33%, #b2927a 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    h3{
+        color: #BE1B1B;
+        font-size: 30px;
+        text-align: center;
+        .text-1{
+            color: #d8730f;
+           
+        }
+    }
+
+}
+
+.demostration-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+
+}
+
+.sub-medium-2{
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    width:  25em;
+    height: 25em;
+    background-image: linear-gradient(180deg, #ffffff 0, #ffffff 16.67%, #f9ffff 33.33%, #eaedee 50%, #d8c9c3 66.67%, #c5ab9c 83.33%, #b2927a 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .map-ubication{
+        width: 150px;
+        height: 150px;
+        border-radius: 10%;
+    }
+}
+
+
+.list-contact{
+    color: #d8730f;
+    list-style-type: none;
+    .r-social{
+        color: #050a04;
+        text-decoration: underline;
+        text-shadow: #BE1B1B 2px 2px 5px;
+
+    }
+}

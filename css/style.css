@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -23,21 +24,52 @@ body {
     background-position: 0% 50%;
   }
 }
-/* SECTIONS */
-.div-container {
-  display: flex;
-  justify-content: space-around;
-}
-
-h1 {
-  font-style: italic;
-  color: #0c0c0c;
-  font-size: 80px;
-  text-align: center;
-  background: rgb(15, 212, 19);
-  background: linear-gradient(90deg, rgba(15, 212, 19, 0.9486169468) 0%, rgb(247, 247, 251) 49%, rgba(255, 0, 0, 0.9514180672) 100%);
+.banner {
+  width: 100%;
+  height: 400px;
+  animation: banner 10s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@keyframes banner {
+  0%, 20% {
+    background-image: url(../assets/banner.jpg);
+  }
+  25%, 45% {
+    background-image: url(../assets/banner-2.jpg);
+  }
+  50%, 70% {
+    background-image: url(../assets/banner-3.jpg);
+  }
+  75%, 100% {
+    background-image: url(../assets/banner-4.jpg);
+  }
+}
+.capa {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.info {
+  z-index: 1;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+}
+
+.info h1 {
+  font-family: "Great Vibes", cursive;
+  color: #fff;
+  font-size: 70px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -110,6 +142,16 @@ h3 {
   border-radius: 10%;
 }
 
+.list-contact {
+  color: #d8730f;
+  list-style-type: none;
+}
+.list-contact .r-social {
+  color: #050a04;
+  text-decoration: underline;
+  text-shadow: #BE1B1B 2px 2px 5px;
+}
+
 .grid-container {
   border: auto solid black;
   margin: 5px;
@@ -132,16 +174,6 @@ h3 {
   width: 150px;
   height: 150px;
   border-radius: 10%;
-}
-
-.list-contact {
-  color: #d8730f;
-  list-style-type: none;
-}
-.list-contact .r-social {
-  color: #050a04;
-  text-decoration: underline;
-  text-shadow: #BE1B1B 2px 2px 5px;
 }
 
 /* FOOTER */
@@ -186,9 +218,7 @@ h3 {
 /* Mobile */
 @media only screen and (max-width: 450px) {
   h1 {
-    font-size: 40px;
-    color: #000000;
-    background-image: linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+    font-size: 20px;
   }
 
   .demostration-1 {
