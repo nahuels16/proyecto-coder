@@ -5,6 +5,12 @@
     font-family: 'Spartan', sans-serif;
 }
 
+@import'../scss/base/mixin';
+
+@import'../scss/base/extends';
+
+@import'../scss/base/maps';
+
 @import '../scss/components/body';
 
 @import '../scss/components/banner';

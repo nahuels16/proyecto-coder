@@ -6,6 +6,19 @@
   font-family: "Spartan", sans-serif;
 }
 
+/* MIXINS */
+/* EXTENDS */
+.sub-medium-2, .sub-medium {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 25em;
+  height: 25em;
+}
+
+/* MAPS */
 body {
   background: linear-gradient(-45deg, #606160, #e7e7e7, #161616);
   background-size: 400% 400%;
@@ -94,19 +107,22 @@ h3 {
   text-align: center;
 }
 
+.styleButton {
+  font-size: 30px;
+  background: #3088e0;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: inline-block;
+  border-radius: 20px;
+}
+
 .medium {
   display: flex;
   justify-content: space-evenly;
 }
 
 .sub-medium {
-  margin: 20px;
-  border-radius: 5px;
-  padding: 20px;
-  display: inline-block;
-  text-align: center;
-  width: 25em;
-  height: 25em;
   background-image: linear-gradient(180deg, #ffffff 0, #ffffff 16.67%, #f9ffff 33.33%, #eaedee 50%, #d8c9c3 66.67%, #c5ab9c 83.33%, #b2927a 100%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -126,13 +142,6 @@ h3 {
 }
 
 .sub-medium-2 {
-  margin: 20px;
-  border-radius: 5px;
-  padding: 20px;
-  display: inline-block;
-  text-align: center;
-  width: 25em;
-  height: 25em;
   background-image: linear-gradient(180deg, #ffffff 0, #ffffff 16.67%, #f9ffff 33.33%, #eaedee 50%, #d8c9c3 66.67%, #c5ab9c 83.33%, #b2927a 100%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

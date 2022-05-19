@@ -1,0 +1,6 @@
+/* MIXINS */
+
+@mixin medidas ($medida, $lugar){
+    font-size: $medida;
+    text-align: $lugar;
+}
