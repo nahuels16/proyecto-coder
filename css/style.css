@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -161,28 +162,97 @@ h3 {
   text-shadow: #BE1B1B 2px 2px 5px;
 }
 
-.grid-container {
-  border: auto solid black;
-  margin: 5px;
-  display: grid;
-  grid-template-rows: 200px 200px 200px;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
+.social-media-pic {
+  width: 50px;
 }
 
-.grid-item {
-  border: solid #000000;
-  background-image: linear-gradient(180deg, #ffffff 0, #ffffff 16.67%, #f9ffff 33.33%, #eaedee 50%, #d8c9c3 66.67%, #c5ab9c 83.33%, #b2927a 100%);
+.gallery-img {
+  width: 90%;
+  margin: auto;
+  list-style: none;
   padding: 20px;
-  text-align: center;
-  object-fit: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.demostration-2 {
+.gallery.li {
+  margin: 5px;
+}
+
+.gal-img {
   width: 150px;
-  height: 150px;
-  border-radius: 10%;
+  height: 100px;
+}
+
+/* MODAL STYLE*/
+.modal {
+  display: none;
+}
+
+.modal:target {
+  display: block;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal h5 {
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.pictures {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pictures a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.pictures a:nth-child(2) {
+  margin: 0;
+  height: 100%;
+  flex-shrink: 2;
+}
+
+.pictures img {
+  width: 500px;
+  height: 100%;
+  max-width: 100%;
+  border: 7px solid white;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.close {
+  display: block;
+  background: white;
+  width: 25px;
+  height: 25px;
+  margin: 15px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  padding: 5px;
+  border-radius: 50%;
+  line-height: 25px;
 }
 
 /* FOOTER */
@@ -193,22 +263,9 @@ h3 {
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(-45deg, #080808, #444444);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 15vh;
+  height: 25vh;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 .logo {
   padding-left: 20px;
 }

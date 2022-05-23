@@ -21,7 +21,7 @@
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html"><img src="../assets/logo-friuli-ristorante.png" alt="Logo" width="100px"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,27 +63,79 @@
         
         </div>
 
-        <h2>¡Aquí puedes ver más de nosotros!</h2>
+        <h2>¡Aquí puedes ver imágenes de nuestro local!</h2>
 
-        <section class="grid-container">
+        <section class="galery-container">
 
-            <div class="grid-item">
-                <img src="../assets/inside.jpg" alt="" class="demostration-2">
-            </div>   
-            <div class="grid-item"> 
-               <img src="../assets/inside-2.jpg" alt="" class="demostration-2">
+            <ul class="gallery-img">
+                <li class="gallery-li"><a href="#img1"><img class="gal-img" src="../assets/inside.jpg" alt=""></a></li>
+                <li class="galery-li"><a href="#img2"><img class="gal-img" src="../assets/inside-2.jpg" alt=""></a></li>
+                <li class="galery-li"><a href="#img3"><img class="gal-img" src="../assets/inside-3.jpg" alt=""></a></li>
+                <li class="galery-li"><a href="#img4"><img class="gal-img" src="../assets/inside-4.jpg" alt=""></a></li>
+                <li class="galery-li"><a href="#img5"><img class="gal-img" src="../assets/inside-5.jpg" alt=""></a></li>
+                <li class="galery-li"><a href="#img6"><img class="gal-img" src="../assets/inside-6.jpg" alt=""></a></li>
+
+            </ul>
+
+            <div class="modal" id="img1">
+                <h5>Imagen 1</h5>
+                <div class="pictures">
+                    <a href="#img4">&#60;</a>
+                    <a href="#img2"><img src="../assets/inside.jpg" alt=""></a>
+                    <a href="#img2">></a>
+                </div>
+                <a class="close" href="">X</a>
+
             </div>
-            <div class="grid-item">   
-                <img src="../assets/inside-3.jpg" alt="" class="demostration-2">
+            <div class="modal" id="img2">
+                <h5>Imagen 2</h5>
+                <div class="pictures">
+                    <a href="#img1">&#60;</a>
+                    <a href="#img3"><img src="../assets/inside-2.jpg" alt=""></a>
+                    <a href="#img3">></a>
+                </div>
+                <a class="close" href="">X</a>
+
             </div>
-            <div class="grid-item">
-                <img src="../assets/inside-4.jpg" alt="" class="demostration-2">
+            <div class="modal" id="img3">
+                <h5>Imagen 3</h5>
+                <div class="pictures">
+                    <a href="#img2">&#60;</a>
+                    <a href="#img4"><img src="../assets/inside-3.jpg" alt=""></a>
+                    <a href="#img4">></a>
+                </div>
+                <a class="close" href="">X</a>
+
             </div>
-            <div class="grid-item">
-                <img src="../assets/inside-5.jpg" alt="" class="demostration-2">
+            <div class="modal" id="img4">
+                <h5>Imagen 4</h5>
+                <div class="pictures">
+                    <a href="#img3">&#60;</a>
+                    <a href="#img5"><img src="../assets/inside-4.jpg" alt=""></a>
+                    <a href="#img5">></a>
+                </div>
+                <a class="close" href="">X</a>
+
             </div>
-            <div class="grid-item">
-                <img src="../assets/inside-6.jpg" alt="" class="demostration-2">
+            <div class="modal" id="img5">
+                <h5>Imagen 5</h5>
+                <div class="pictures">
+                    <a href="#img4">&#60;</a>
+                    <a href="#img6"><img src="../assets/inside-5.jpg" alt=""></a>
+                    <a href="#img6">></a>
+                </div>
+                <a class="close" href="">X</a>
+
+            </div>
+            <div class="modal" id="img6">
+                <h5>Imagen 6</h5>
+                <div class="pictures">
+                    <a href="#img5">&#60;</a>
+                    <a href="#img1"><img src="../assets/inside-6.jpg" alt=""></a>
+                    <a href="#img1">></a>
+                </div>
+                <a class="close" href="">X</a>
+
             </div>
 
 
