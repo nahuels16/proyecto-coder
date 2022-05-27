@@ -8,6 +8,11 @@
         font-size: 20px;
     }
 
+    .banner{
+        width: 100%;
+        height: 250px;
+    }
+
     .demostration-1{
         width: 120px;
         height: 120px;
@@ -40,6 +45,18 @@
     .demo-logo{
         width: 20px;
     }
+
+    .pictures{
+        width: 100%;
+        height: 25%;
+    }
+
+    .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
 }
 
 /* Tablet */
@@ -48,6 +65,11 @@
 
     h1{
         font-size: 20px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 450px;
     }
 
     h2{
@@ -75,6 +97,18 @@
 
     .demo-logo{
         width: 40px;
+    }
+
+    .pictures{
+        width: 100%;
+        height: 30%;
+    }
+
+    .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
     }
 
 }
