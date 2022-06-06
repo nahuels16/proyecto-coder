@@ -102,13 +102,13 @@ h3 {
 }
 
 .styleButton {
-  font-size: 30px;
+  font-size: 35px;
   background: #3088e0;
   display: inline-block;
   color: white;
   text-decoration: none;
   padding: inline-block;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .medium {
